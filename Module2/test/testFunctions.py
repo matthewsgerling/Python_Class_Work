@@ -1,3 +1,8 @@
+# Program: VariableAssignment.py
+# Author: Matthew Gerling
+# Last date modified: 06/2/2020
+
+
 import unittest
 from Module2.main import camperAgeInput
 
