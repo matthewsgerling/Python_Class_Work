@@ -5,7 +5,7 @@ from inputValidation.main.validationWithTry import average
 def test_average_exception(self):
     with self.assertRaise(ValueError):
         try:
-            average(-90, 89, 78)
+            print(average(-90, -89, 78))
         except ValueError:
             raise ValueError('Value error')
         else:
