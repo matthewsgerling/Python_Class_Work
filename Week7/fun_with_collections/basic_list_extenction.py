@@ -1,8 +1,11 @@
+# Copy of basic list
+
+
 def make_list():
-    returnList = [0, 0, 0]
-    temp = 1
+    returnList = []
+    temp = 0
     for i in range(0, 3, 1):
-        returnList[temp].index(get_input())
+        int(returnList[i].index(get_input()))
         temp = temp + 1
     return returnList
 
