@@ -7,8 +7,8 @@ class TestList(unittest.TestCase):
     def test_sort(self):
         sort_and_search_arrays.sortArray(['h', 'p', 'o', 'm'])
 
-    def test_sort(self):
+    def test_search_there(self):
         sort_and_search_arrays.searchArray(['h', 'p', 'o', 'm'], 'h')
 
-    def test_sort(self):
+    def test_search_not_there(self):
         sort_and_search_arrays.searchArray(['h', 'p', 'o', 'm'], 'n')
