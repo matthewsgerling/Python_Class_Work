@@ -1,5 +1,8 @@
-def in_set():
-    pass
+def in_set(set, var):
+    if var in set:
+        return True
+    else:
+        return False
 
 
 if __name__ == '__main__':
