@@ -1,19 +1,29 @@
-import unittest
 from Week8.Collections.assign_average import switch_average
 
 
-class TestList(unittest.TestCase):
-    def testA(self):
-        self.assertTrue(switch_average('a'))
+def testA(self):
+    with self.assertRaise(ValueError):
+        assert switch_average('a')
 
-    def testB(self):
-        self.assertTrue(switch_average("b"))
 
-    def testE(self):
-        self.assertTrue(switch_average('e'))
+def testB(self):
+    with self.assertRaise(ValueError):
+        assert switch_average('b')
 
-    def testC(self):
-        self.assertTrue(switch_average('c'))
 
-    def testD(self):
-        self.assertTrue(switch_average('d'))
+def testC(self):
+    with self.assertRaise(ValueError):
+        assert switch_average('c')
+
+
+def testD(self):
+    with self.assertRaise(ValueError):
+        assert switch_average('d')
+
+
+def testE(self):
+    with self.assertRaise(ValueError):
+        assert switch_average('e')
+
+
+
