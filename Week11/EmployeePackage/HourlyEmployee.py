@@ -1,3 +1,6 @@
+# Author Matthew Gerling
+# File HourlyEmployee
+
 from Week11.EmployeePackage.EmployeeClass import Employee
 from _datetime import datetime
 

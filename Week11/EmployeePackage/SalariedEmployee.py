@@ -1,3 +1,6 @@
+# Author Matthew Gerling
+# File Salaried Employee
+
 from Week11.EmployeePackage.EmployeeClass import Employee
 from _datetime import datetime
 
@@ -15,7 +18,7 @@ class SalariedEmployee(Employee):
         print(Employee.display(self), '\nSalary:', self.salary, '\nStart Date:', self.startDate)
 
 
-# driver
+# Driver
 Employee1 = SalariedEmployee('Matt', 'Gerling', '4, 4, 2020', 40000)
 Employee1.display()
 Employee1.give_raise(45000)
