@@ -19,9 +19,9 @@ class SalariedEmployee(Employee):
 
 
 # Driver
-Employee1 = SalariedEmployee('Matt', 'Gerling', '4, 4, 2020', 40000)
-Employee1.display()
-Employee1.give_raise(45000)
-Employee1.display()
+# Employee1 = SalariedEmployee('Matt', 'Gerling', '4, 4, 2020', 40000)
+# Employee1.display()
+# Employee1.give_raise(45000)
+# Employee1.display()
 
-del Employee1
+# del Employee1

@@ -8,4 +8,4 @@ class Person:
         self.address = add
 
     def display(self):
-        return self.last_name + ", " + self.first_name + " lives at " + self.address
+        print(self.last_name + ", " + self.first_name + " lives at " + self.address)
